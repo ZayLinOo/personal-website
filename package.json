@@ -4,9 +4,8 @@
   "description": "Personal portfolio website for Zay Lin Oo.",
   "private": true,
   "scripts": {
-    "dev": "vite",
-    "build": "tsc -b && vite build",
-    "build:github-pages": "tsc -b && vite build --base=/personal-website/",
+    "dev": "vite --configLoader runner",
+    "build": "tsc -b && vite build --configLoader runner",
     "preview": "vite preview"
   },
   "keywords": [
