@@ -1,0 +1,30 @@
+{
+  "name": "personal-website",
+  "version": "0.1.0",
+  "description": "Personal portfolio website for Zay Lin Oo.",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -b && vite build --base=/personal-website/",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "portfolio",
+    "media-buying",
+    "performance-marketing"
+  ],
+  "author": "Zay Lin Oo",
+  "license": "UNLICENSED",
+  "type": "module",
+  "dependencies": {
+    "lucide-react": "^0.562.0",
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "typescript": "^5.9.3",
+    "vite": "^7.3.6"
+  }
+}
